@@ -1,6 +1,5 @@
 import React from "react";
 
-// import woman image
 import WomanImg from "../assets/img/banner.png";
 
 const Hero = () => {
