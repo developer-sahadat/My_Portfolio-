@@ -1,92 +1,91 @@
 //  icons
 import {
-  FiYoutube,
   FiInstagram,
+  FiLinkedin,
   FiGithub,
-  FiDribbble,
   FiLayout,
   FiSettings,
   FiPenTool,
   FiTag,
   FiMail,
   FiMapPin,
-} from 'react-icons/fi';
+} from "react-icons/fi";
 
 // companies icons
-import FreelancerBrandIcon from './assets/img/brands/freelancer.png';
-import UpworkBrandIcon from './assets/img/brands/upwork.png';
-import FiverBrandIcon from './assets/img/brands/fiverr.png';
-import BehanceBrandIcon from './assets/img/brands/behance.png';
-import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
+import FreelancerBrandIcon from "./assets/img/brands/freelancer.png";
+import UpworkBrandIcon from "./assets/img/brands/upwork.png";
+import FiverBrandIcon from "./assets/img/brands/fiverr.png";
+import BehanceBrandIcon from "./assets/img/brands/behance.png";
+import DribbbleBrandIcon from "./assets/img/brands/dribbble.png";
 
 // projects images
-import Project1 from './assets/img/projects/p1.webp';
-import Project2 from './assets/img/projects/p2.webp';
-import Project3 from './assets/img/projects/p3.webp';
-import Project4 from './assets/img/projects/p4.webp';
-import Project5 from './assets/img/projects/p5.webp';
-import Project6 from './assets/img/projects/p6.webp';
+import Project1 from "./assets/img/projects/p1.png";
+import Project2 from "./assets/img/projects/p2.png";
+import Project3 from "./assets/img/projects/p3.png";
+import Project4 from "./assets/img/projects/p4.png";
+import Project5 from "./assets/img/projects/p5.png";
+import Project6 from "./assets/img/projects/p6.png";
 
 // skills images
-import SkillImg1 from './assets/img/skills/html5.png';
-import SkillImg2 from './assets/img/skills/css3.png';
-import SkillImg3 from './assets/img/skills/js.png';
-import SkillImg4 from './assets/img/skills/reactjs.png';
-import SkillImg5 from './assets/img/skills/nextjs.png';
-import SkillImg6 from './assets/img/skills/nodejs.png';
-import SkillImg7 from './assets/img/skills/git.png';
-import SkillImg8 from './assets/img/skills/figma.png';
+import SkillImg1 from "./assets/img/skills/html5.png";
+import SkillImg2 from "./assets/img/skills/css3.png";
+import SkillImg3 from "./assets/img/skills/js.png";
+import SkillImg4 from "./assets/img/skills/reactjs.png";
+import SkillImg5 from "./assets/img/skills/mongodb.png";
+import SkillImg6 from "./assets/img/skills/nodejs.png";
+import SkillImg7 from "./assets/img/skills/git.png";
+import SkillImg8 from "./assets/img/skills/figma.png";
 
 // testimonial images
-import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
-import TestiImage2 from './assets/img/testimonials/testimonial-2.webp';
-import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
+import TestiImage1 from "./assets/img/testimonials/t1.jpg";
+import TestiImage2 from "./assets/img/testimonials/testimonial-2.webp";
+import TestiImage3 from "./assets/img/testimonials/t3.jpg";
 
 // navigation
 export const navigation = [
   {
-    name: 'home',
-    href: 'home',
+    name: "home",
+    href: "home",
   },
   {
-    name: 'about',
-    href: 'about',
+    name: "about",
+    href: "about",
   },
   {
-    name: 'portfolio',
-    href: 'portfolio',
+    name: "portfolio",
+    href: "portfolio",
   },
   {
-    name: 'services',
-    href: 'services',
+    name: "services",
+    href: "services",
   },
   {
-    name: 'testimonials',
-    href: 'testimonials',
+    name: "testimonials",
+    href: "testimonials",
   },
   {
-    name: 'contact',
-    href: 'contact',
+    name: "contact",
+    href: "contact",
   },
 ];
 
 // social
 export const social = [
   {
-    icon: <FiYoutube />,
-    href: '',
+    icon: <FiLinkedin />,
+    href: "https://www.linkedin.com/in/developer-sahadat/",
   },
   {
     icon: <FiInstagram />,
-    href: '',
+    href: "https://www.instagram.com/developershahadat/",
   },
   {
     icon: <FiGithub />,
-    href: '',
+    href: "https://github.com/developer-sahadat",
   },
   {
-    icon: <FiDribbble />,
-    href: '',
+    icon: <FiMail />,
+    href: "web.shahadat.hossain@gmail.com",
   },
 ];
 
@@ -94,79 +93,93 @@ export const social = [
 export const brands = [
   {
     img: FreelancerBrandIcon,
-    href: '',
+    href: "",
   },
   {
     img: UpworkBrandIcon,
-    href: '',
+    href: "",
   },
   {
     img: FiverBrandIcon,
-    href: '',
+    href: "",
   },
   {
     img: BehanceBrandIcon,
-    href: '',
+    href: "",
   },
   {
     img: DribbbleBrandIcon,
-    href: '',
+    href: "",
   },
 ];
 
 // projects
 export const projectsData = [
   {
-    id: '1',
+    id: "1",
     image: Project1,
-    name: 'project name 1',
-    category: 'UI/UX design',
+    name: "Doctorio",
+    category: "UI/UX design",
+    gHref: "https://github.com/developer-sahadat/doctorio_full_stack_project",
+    lHref: "https://doctorio-a6a0c.web.app/",
   },
   {
-    id: '2',
+    id: "2",
     image: Project2,
-    name: 'project name 2',
-    category: 'web development',
+    name: "Construction Tools",
+    category: "web development",
+    gHref: "https://github.com/developer-sahadat/construction-tools",
+    lHref: "https://construction-tools-ea0f5.firebaseapp.com/",
   },
   {
-    id: '3',
+    id: "3",
     image: Project3,
-    name: 'project name 3',
-    category: 'UI/UX design',
+    name: "Apple Stock",
+    category: "UI/UX design",
+    gHref: "https://github.com/developer-sahadat/apple_stock",
+    lHref: "https://phonesy-ad56a.web.app/",
   },
   {
-    id: '4',
+    id: "4",
     image: Project4,
-    name: 'project name 4',
-    category: 'branding',
+    name: "Writerfly",
+    category: "branding",
+    gHref:
+      "https://github.com/developer-sahadat/writerfly-in-firebase-and-ReactJs",
+    lHref: "https://writerfly-e4e13.web.app/",
   },
   {
-    id: '5',
+    id: "5",
     image: Project5,
-    name: 'project name 5',
-    category: 'web development',
+    name: "Red Onion",
+    category: "web development",
+    gHref:
+      "https://github.com/developer-sahadat/Red-Onion-foods-reactJS-Firebase",
+    lHref: "https://red-onion-9a291.web.app/",
   },
   {
-    id: '6',
+    id: "6",
     image: Project6,
-    name: 'project name 6',
-    category: 'web development',
+    name: "Portfolio",
+    category: "web development",
+    gHref: "https://github.com/developer-sahadat/assignment-1",
+    lHref: "https://developer-sahadat.github.io/assignment-1/",
   },
 ];
 
 // projects
 export const projectsNav = [
   {
-    name: 'all',
+    name: "all",
   },
   {
-    name: 'UI/UX Design',
+    name: "UI/UX Design",
   },
   {
-    name: 'web development',
+    name: "web development",
   },
   {
-    name: 'branding',
+    name: "branding",
   },
 ];
 
@@ -202,27 +215,27 @@ export const skills = [
 export const services = [
   {
     icon: <FiLayout />,
-    name: 'Web Design',
+    name: "Font End Development",
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      "I build websites in such a way that the user comes to the website and understands everything and I code in such a way that any unique developer can see and understand.",
   },
   {
     icon: <FiSettings />,
-    name: 'Web Development',
+    name: " Technology do I use",
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      "I use technology that can load the website quickly, I use React js, Vue js, tailwind, Firebase,  node js, JavaScript, etc Technology. I try to use things that are updated",
   },
   {
     icon: <FiPenTool />,
-    name: 'Branding',
+    name: "Benefits",
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      "I'm with a developer team. So my experience is how to work with a team I can merge with a new team or a new company all too soon. I try to stay updated all the time. I finish all the work one time.",
   },
   {
     icon: <FiTag />,
-    name: 'SEO',
+    name: "SEO",
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      "I already have an idea about digital marketing, so I know how important SEO is for a company.So I try to code in such a way that this website gets ranked very quickly",
   },
 ];
 
@@ -231,23 +244,23 @@ export const testimonials = [
   {
     authorImg: TestiImage1,
     authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+      "My name is Shahadat I am a web developer.  I have been doing web development for 2 year",
+    authorName: "Shahadat Hosssain",
+    authorPosition: "Developer Build, Team Member",
   },
   {
     authorImg: TestiImage2,
     authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+      "My name is Sanjida I am a Mern Stack Developer.  I have been doing web development for 1 year",
+    authorName: "Sanjida Aktar",
+    authorPosition: "Developer Build, Team Member",
   },
   {
     authorImg: TestiImage3,
     authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+      "My name is Foysal I am a Font Developer.  I have been doing web development for 1 year",
+    authorName: "Foysaal ",
+    authorPosition: "Developer Build, Team Member",
   },
 ];
 
@@ -255,14 +268,14 @@ export const testimonials = [
 export const contact = [
   {
     icon: <FiMail />,
-    title: 'Have a question?',
-    subtitle: 'I am here to help you.',
-    description: 'Email me at hello@youremail.com',
+    title: "Have a question?",
+    subtitle: "I am here to help you.",
+    description: " web.shahadat.hossain@gmail.com",
   },
   {
     icon: <FiMapPin />,
-    title: 'Current Location',
-    subtitle: 'Bucharest, Romania',
-    description: 'Serving clients worldwide',
+    title: "Current Location",
+    subtitle: "Savar, Dhaka-1344, Bangladesh",
+    description: "Serving clients worldwide",
   },
 ];
